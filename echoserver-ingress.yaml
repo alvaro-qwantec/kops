@@ -12,6 +12,3 @@ spec:
       - backend:
           serviceName: echoserver
           servicePort: 80
-        path: /
-  - host: rocket.workera.com
-    http: *echoserver_root
